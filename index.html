@@ -643,36 +643,13 @@
       April 14, 2026 &nbsp;·&nbsp; 6:00 – 8:00 PM PST &nbsp;·&nbsp; Wally's Beverly Hills
     </div>
     <div class="form-wrap">
-      <div class="mag-field">
-        <label class="mag-label" for="member-name">Member Name</label>
-        <input type="text" id="member-name" name="member_name" placeholder="Your full name" autocomplete="name">
+      <div style="border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); padding: 32px 0; margin-top: 8px;">
+        <p style="font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: var(--muted); margin-bottom: 12px;">Registration Closed</p>
+        <p style="font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 20px; color: var(--teal); line-height: 1.5;">
+          The RSVP window for this event has now closed.<br>
+          We look forward to seeing confirmed guests on April 14.
+        </p>
       </div>
-      <div class="mag-field" style="margin-bottom: 6px;">
-        <label class="guest-section-label">Member Guests</label>
-        <div class="guest-count-row">
-          <button type="button" class="guest-pill active" data-count="0" onclick="setGuests(0)">No guests</button>
-          <button type="button" class="guest-pill" data-count="1" onclick="setGuests(1)">1 Guest</button>
-          <button type="button" class="guest-pill" data-count="2" onclick="setGuests(2)">2 Guests</button>
-        </div>
-        <div class="guest-seat-note">Names can be provided closer to the date</div>
-        <div class="guest-names" id="guest-names">
-          <div class="guest-row">
-            <div class="mag-field" id="guest-1-wrap">
-              <label class="mag-label" for="guest-1">Guest One <span style="color:var(--muted); font-size:8px; letter-spacing:2px;">(optional)</span></label>
-              <input type="text" id="guest-1" name="guest_1" placeholder="Name if known" autocomplete="off">
-            </div>
-            <div class="mag-field" id="guest-2-wrap" style="opacity:0; transition: opacity 0.4s ease;">
-              <label class="mag-label" for="guest-2">Guest Two <span style="color:var(--muted); font-size:8px; letter-spacing:2px;">(optional)</span></label>
-              <input type="text" id="guest-2" name="guest_2" placeholder="Name if known" autocomplete="off">
-            </div>
-          </div>
-        </div>
-      </div>
-      <button class="mag-btn" id="submit-btn" onclick="handleRSVP()" style="margin-top: 20px;">
-        Confirm Attendance
-      </button>
-      <div class="error-msg" id="error-msg">Please enter your name to continue.</div>
-      <div class="success-msg" id="success-msg">Thank you — we look forward to seeing you on April 14.</div>
     </div>
   </div>
   <!-- RIGHT: IMAGES -->
